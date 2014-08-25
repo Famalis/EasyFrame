@@ -180,12 +180,12 @@ public class EasyFrame {
 			if(maxDim.getHeight()<panel.getHeight()) {
 				maxDim = panel.getSize();
 			}
-			System.out.println(panel.getSize());
+			//System.out.println(panel.getSize());
 			if(panel.getHeight()<maxDim.getHeight()) {
 				panel.setMinimumSize(maxDim);
 				panel.setPreferredSize(maxDim);
 			}
-			System.out.println(panel.getSize());
+			//System.out.println(panel.getSize());
 		}
 		frame.repaint();
 		this.show();
